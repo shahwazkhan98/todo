@@ -24,6 +24,7 @@ function submitEvent(e){
     ul.style.borderRadius = ('0px 50px 50px 50px')
     ul.style.padding = '15px'
     ul.style.backgroundColor = ('aqua')
+    // ul.style.backgroundImage = 'url(https://source.unsplash.com/random/900×700/?colour)'
     outputInbox.appendChild(ul)
 
     let outputName = document.createElement('p')
