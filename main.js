@@ -64,6 +64,7 @@ function submitEvent(e){
     whatsApp.style.borderRadius = '30%'
     whatsApp.style.color = "green"
     whatsApp.setAttribute("href", "https://wa.me/" + mobileInput.value) 
+    whatsApp.style.target = "_blank"
     ul.appendChild(whatsApp)
 
 
